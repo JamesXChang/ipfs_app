@@ -4,6 +4,7 @@ contract address:
 0xF3D694B1cc97d72f095FAE628f7AbD1aFFB68B9D
 
 // "start": "react-scripts start",
+// "start": "node server.js",
 
 ABI:
 

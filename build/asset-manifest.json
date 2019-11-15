@@ -1,25 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.334525b1.chunk.css",
-    "main.js": "/static/js/main.f26d1a57.chunk.js",
-    "main.js.map": "/static/js/main.f26d1a57.chunk.js.map",
+    "main.css": "/static/css/main.0e2f3d99.chunk.css",
+    "main.js": "/static/js/main.42cd81b4.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.ab000d8f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ab000d8f.js.map",
-    "static/css/2.3cecf958.chunk.css": "/static/css/2.3cecf958.chunk.css",
+    "static/css/2.5722d8e6.chunk.css": "/static/css/2.5722d8e6.chunk.css",
     "static/js/2.5349133a.chunk.js": "/static/js/2.5349133a.chunk.js",
-    "static/js/2.5349133a.chunk.js.map": "/static/js/2.5349133a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.fd1fa4e322b2494316dfabaa29334327.js": "/precache-manifest.fd1fa4e322b2494316dfabaa29334327.js",
+    "precache-manifest.8171695e571548a463a28f31f080843a.js": "/precache-manifest.8171695e571548a463a28f31f080843a.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.3cecf958.chunk.css.map": "/static/css/2.3cecf958.chunk.css.map",
-    "static/css/main.334525b1.chunk.css.map": "/static/css/main.334525b1.chunk.css.map",
     "static/media/bootstrap.min.css": "/static/media/glyphicons-halflings-regular.fa277232.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.ab000d8f.js",
-    "static/css/2.3cecf958.chunk.css",
+    "static/css/2.5722d8e6.chunk.css",
     "static/js/2.5349133a.chunk.js",
-    "static/css/main.334525b1.chunk.css",
-    "static/js/main.f26d1a57.chunk.js"
+    "static/css/main.0e2f3d99.chunk.css",
+    "static/js/main.42cd81b4.chunk.js"
   ]
 }
