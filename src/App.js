@@ -150,7 +150,7 @@ class App extends Component {
               </tbody>
           </table>
           <h3>IPFS image</h3>
-          <iframe src={this.state.ipfs_img} alt="ipfs" width="1000" height="500"/>
+          <iframe src={this.state.ipfs_img} alt="ipfs" width="1000" height="500" title="myFrame"></iframe>
           <br></br>
           </div>
       </grid>
