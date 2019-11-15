@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b60c277033cdd4635adcb4964cc23a2c",
+    "revision": "561459c53c40d7c8b0d9317f329c0bf8",
     "url": "/ipfs_app/index.html"
   },
   {
