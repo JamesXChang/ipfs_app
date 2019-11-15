@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e2f3d99.chunk.css",
-    "main.js": "/static/js/main.42cd81b4.chunk.js",
-    "runtime-main.js": "/static/js/runtime-main.ab000d8f.js",
-    "static/css/2.5722d8e6.chunk.css": "/static/css/2.5722d8e6.chunk.css",
-    "static/js/2.5349133a.chunk.js": "/static/js/2.5349133a.chunk.js",
-    "index.html": "/index.html",
-    "precache-manifest.8171695e571548a463a28f31f080843a.js": "/precache-manifest.8171695e571548a463a28f31f080843a.js",
-    "service-worker.js": "/service-worker.js",
-    "static/media/bootstrap.min.css": "/static/media/glyphicons-halflings-regular.fa277232.woff"
+    "main.css": "/ipfs_app/static/css/main.0e2f3d99.chunk.css",
+    "main.js": "/ipfs_app/static/js/main.929b0dfc.chunk.js",
+    "runtime-main.js": "/ipfs_app/static/js/runtime-main.3d6ab228.js",
+    "static/css/2.b15fdb07.chunk.css": "/ipfs_app/static/css/2.b15fdb07.chunk.css",
+    "static/js/2.c744d5f8.chunk.js": "/ipfs_app/static/js/2.c744d5f8.chunk.js",
+    "index.html": "/ipfs_app/index.html",
+    "precache-manifest.3bd38a4b23ae4e93fefdd594a59aa715.js": "/ipfs_app/precache-manifest.3bd38a4b23ae4e93fefdd594a59aa715.js",
+    "service-worker.js": "/ipfs_app/service-worker.js",
+    "static/media/bootstrap.min.css": "/ipfs_app/static/media/glyphicons-halflings-regular.fa277232.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.ab000d8f.js",
-    "static/css/2.5722d8e6.chunk.css",
-    "static/js/2.5349133a.chunk.js",
+    "static/js/runtime-main.3d6ab228.js",
+    "static/css/2.b15fdb07.chunk.css",
+    "static/js/2.c744d5f8.chunk.js",
     "static/css/main.0e2f3d99.chunk.css",
-    "static/js/main.42cd81b4.chunk.js"
+    "static/js/main.929b0dfc.chunk.js"
   ]
 }
