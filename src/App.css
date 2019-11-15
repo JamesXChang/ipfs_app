@@ -1,3 +1,33 @@
+
+.div_center{
+  padding: 0rem 8rem;
+  text-align: center;
+}
+input[type=file] {
+  /* margin: 0 auto; */
+  padding: 0rem 37rem;
+}
+.button_center {
+  padding: 0rem 2rem;
+  margin:auto;
+  display:block;
+  position: absolute;
+  top: 35%;
+  left: 46%;
+  width: 80px !important;
+  outline-style: solid;
+  outline: 2px auto #0080ff;
+  outline-offset: -2px;
+  box-shadow: 0 0 0pt 1pt #0080ff;
+}
+
+.button2{
+  outline-style: solid;
+  outline: 2px auto #0080ff;
+  outline-offset: -2px;
+  box-shadow: 0 0 0pt 1pt #0080ff;
+}
+
 .App {
   text-align: center;
 }
@@ -7,8 +37,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: MediumSeaGreen;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,4 +49,24 @@
 
 .App-link {
   color: #09d3ac;
+}
+img{
+  width: 30rem
+}
+
+/*csslint important: true*/
+@media screen and (max-width :800px){
+  .div_center{
+      padding: 0rem 1rem;
+  }
+  input[type=file] {
+    margin: 0 auto;
+    padding: 0rem 5rem 0rem 0rem;
+    width: 20rem
+  }
+  .button_center{
+    top: 23rem;
+    left: 10rem;
+    width: 80px !important;
+  }
 }

@@ -15,7 +15,8 @@ class App extends Component {
     blockNumber:'',
     transactionHash:'',
     gasUsed:'',
-    txReceipt: ''   
+    txReceipt: '',   
+    ipfs_img:null
   };
 
   captureFile =(event) => {
@@ -72,6 +73,10 @@ class App extends Component {
       console.log(err,ipfsHash);
       //setState by setting ipfsHash to ipfsHash[0].hash 
       this.setState({ ipfsHash:ipfsHash[0].hash });
+      const ipfs_img ="https://gateway.ipfs.io/ipfs/"+ipfsHash[0].hash;
+      console.log(err,ipfs_img);
+      this.setState({ipfs_img});
+      // ipfs_img = image('http://www.ghttps://gateway.ipfs.io/ipfs/QmRrwgD7JYq3CTZUrJ6WPKKxkwPCuKY5CL6wC8DyF6uDSfoogle.com/image.png');
       
       
       // call Ethereum contract method "setHash" and .send IPFS hash to etheruem contract 
@@ -85,6 +90,8 @@ class App extends Component {
       }); //storehash 
     }) //await ipfs.add 
   }; //onSubmit
+
+
   render() {
         
     return (
@@ -96,44 +103,56 @@ class App extends Component {
         <hr/>
       <grid>
         <h3> Choose file to send to IPFS </h3>
-        <form onSubmit={this.onSubmit} >
-          <input type = "file" onChange = {this.captureFile} />
-          <button bsStyle="primary" type="submit"> Send it</button>
-        </form>
+        <div class="div_center">
+          <form class="form-group" onSubmit={this.onSubmit} >
+            <input type = "file" onChange = {this.captureFile} />
+            {/* <div class=" col-md-2 col-x2-1">  btn-block*/}
+              <button class="button_center btn btn-outline-primary cursor-pointer" type="submit"> Send it</button>
+            {/* </div> */}
+          </form>
+        </div>
+        <br></br>
         <hr/>
-          <button onClick = {this.onClick}> Get Transaction Receipt </button>
-          <table bordered responsive>
+          <div class="div_center">
+            <div class="col-md-3 col-x2-1">
+              <button type="button" class="button2 btn-block btn btn-outline-primary nofocus cursor-pointer" onClick = {this.onClick}> Get Transaction Receipt </button>
+            </div>
+          <table class="table table-striped table-hover" bordered responsive>
               <thead>
                 <tr>
-                  <th>Tx Receipt Category</th>
-                  <th>Values</th>
+                  <th scope="col" class="col-md-3" >Tx Receipt Category</th>
+                  <th scope="col" class="col-md-3">Values</th>
                 </tr>
               </thead>
               
               <tbody>
                 <tr>
-                  <td>IPFS Hash # stored on Eth Contract: </td>
+                  <th scope="row">IPFS Hash # stored on Eth Contract: </th>
                   <td>{this.state.ipfsHash}</td>
                 </tr>
                 <tr>
-                  <td>Ethereum Contract Address: </td>
+                  <th scope="row">Ethereum Contract Address: </th>
                   <td>{this.state.ethAddress}</td>
                 </tr>
                 <tr>
-                  <td>Tx Hash # : </td>
+                  <th scope="row">Tx Hash # : </th>
                   <td>{this.state.transactionHash}</td>
                 </tr>
                 <tr>
-                  <td>Block Number # : </td>
+                  <th scope="row">Block Number # : </th>
                   <td>{this.state.blockNumber}</td>
                 </tr>
                 <tr>
-                  <td>Gas Used : </td>
+                  <th scope="row">Gas Used : </th>
                   <td>{this.state.gasUsed}</td>
                 </tr>
               
               </tbody>
           </table>
+          <h3>IPFS image</h3>
+          <iframe src={this.state.ipfs_img} alt="ipfs" width="1000" height="500"/>
+          <br></br>
+          </div>
       </grid>
     </div>
     );
