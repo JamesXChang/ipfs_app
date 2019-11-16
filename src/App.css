@@ -50,8 +50,8 @@ input[type=file] {
 .App-link {
   color: #09d3ac;
 }
-img{
-  width: 30rem
+iframe{
+  width: 60rem
 }
 
 /*csslint important: true*/
@@ -68,5 +68,9 @@ img{
     top: 23rem;
     left: 10rem;
     width: 80px !important;
+  }
+  iframe{
+    width: 30rem;
+    height: 30rem;
   }
 }

@@ -5,6 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 //import registerServiceWorker from './registerServiceWorker';
 //import 'bootstrap/dist/css/bootstrap.min.css';
+// import './bootstrapmin.css';
 import '/Users/james/smart-contracts/node_modules/webgme/src/client/bower_components/bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));

@@ -6,7 +6,6 @@
     "npm": "6.11.3",
     "node": "10.15.3"
   },
-  "homepage": "https://JamesXChang.github.io/ipfs_app",
   "private": true,
   "dependencies": {
     "express": "^4.17.1",
